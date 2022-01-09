@@ -6,7 +6,7 @@ const http = require('http')    // http module
 const server = http.createServer((req, res) => {
     console.log('INCOMING REQUEST')
     console.log(req.method, req.url)   // getting incoming request
-    res.setHeader('Content-Type', 'text/plain')
+    // res.setHeader('Content-Type', 'text/plain')  // use this if don't want to print response as HTML
     res.end('<h1>Success</h1>');   // send response back
 })
 
