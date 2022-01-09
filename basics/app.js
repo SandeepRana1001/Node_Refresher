@@ -1,4 +1,4 @@
-const userName = "Sandeep"
+const userName = "Node JS"
 //importing file system module
 const fs = require('fs')
 
